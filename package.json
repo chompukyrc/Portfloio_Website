@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://chompukyrc.github.io/Portfolio_Website/",
+  "homepage": "http://chompukyrc.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,7 +12,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prepare": "husky install",
-    "deploy": "vite build && gh-pages -r git@github.com:chompukyrc/Portfolio_Website.git -d dist -m \"Update\""
+    "deploy": "vite build && gh-pages -r git@github.com:chompukyrc/chompukyrc.github.io.git -d dist -f -m \"Update\""
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
