@@ -9,8 +9,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
+    "lint": "eslint",
+    "lint:fix": "eslint",
     "prepare": "husky install",
     "deploy": "vite build && gh-pages -r git@github.com:chompukyrc/chompukyrc.github.io.git -d dist -f -m \"Update\""
   },

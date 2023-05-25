@@ -14,5 +14,10 @@
     "no-console": "warn",
     "no-eval": "error",
     "import/first": "error"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.jsx", "*.js"]
+    }
+  ]
 }
